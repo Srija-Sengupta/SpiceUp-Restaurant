@@ -192,26 +192,9 @@ button:hover {
   background-color: #732d91;
 }
 
-/* Events 
-.events .event {
-  background: url('https://media.istockphoto.com/id/1324561072/photo/party-people-enjoy-concert-at-festival-summer-music-festival.jpg?s=612x612&w=0&k=20&c=rT--yThoBJSdYFUb9nm-7oDvBZuhNE9LmB5uYmlxvSs=');
-  padding: 5rem;
-  margin: 2rem auto;
-  max-width: 500px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
 
-.events .event1 {
-  background: url('https://www.shutterstock.com/image-photo/assorted-indian-food-on-wooden-260nw-2358599215.jpg');
-  padding: 5rem;
-  margin: 2rem auto;
-  max-width: 500px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}*/
 
-/* Footer */
+
 footer {
   background-color: #2c3e50;
   color: white;
@@ -220,7 +203,7 @@ footer {
   margin-top: 2rem;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
