@@ -1,0 +1,113 @@
+body {
+  background: url('https://png.pngtree.com/thumb_back/fh260/background/20221201/pngtree-elegant-golden-stage-diagonal-glowing-with-lighting-effect-sparkle-on-black-image_1485908.jpg') center/cover no-repeat fixed;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(5px);
+  z-index: -1;
+  opacity: 0.9;
+}
+
+/* Events Section */
+.events {
+  padding: 5rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.events h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #fff;
+  text-shadow: 2px 2px 8px #000;
+}
+
+/* Common style for both event blocks */
+.event,
+.event1 {
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  padding: 5rem 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ghazal Night with inner blur */
+.event::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-image: url('https://cafedissensuseveryday.com/wp-content/uploads/2021/07/timeless-ghazal-singers-you-must-follow_-mobile.jpg');
+  background-size: cover;
+  background-position: center;
+  /*filter: blur(2px);*/
+  opacity: 0.85;
+  z-index: 0;
+}
+
+.event h3,
+.event p {
+  position: relative;
+  z-index: 1;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+  margin-bottom: 0.5rem;
+}
+
+.event p {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-top: 0.5rem;
+}
+
+/* Sunday Brunch Fest */
+.event1 {
+  background-image: url('https://dcne6xdf7p7lz.cloudfront.net/wp-content/uploads/2025/01/restaurant-dubai-india-best-food-take-away-brunch-downtown22a.jpg');
+  backdrop-filter: blur(2px);
+   
+}
+
+.event1 h3,
+.event1 p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+  margin-bottom: 0.5rem;
+}
+
+.event1 p {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin-top: 0.5rem;
+}
+
+/* Footer for event page */
+footer {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}

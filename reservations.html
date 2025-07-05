@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SpiceUP | Reservation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">SpiceUP</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="background: url('https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=1400&q=80') center/cover; height: 50vh; padding-top: 120px;">
+    <h2>Reserve Your Table</h2>
+    <p>Book now for a delightful dining experience!</p>
+  </section>
+
+  <section class="reservation">
+    <h2>Make a Reservation</h2>
+    <form id="reservationForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="date" required />
+      <input type="time" required />
+      <input type="number" placeholder="No. of Guests" required />
+      <button type="submit">Reserve Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SpiceUP. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('reservationForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      alert('Reservation successful! We look forward to welcoming you at SpiceUP.');
+    });
+  </script>
+</body>
+</html>
